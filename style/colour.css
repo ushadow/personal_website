@@ -1,0 +1,104 @@
+body { 
+	background: #FFF url(../resources/img/back_sky.png) no-repeat top center;
+  color: #555;
+}
+
+h1, h2, h3{color: #317BA5;}
+
+/*.left, .right{border-color: #FFF;}*/
+
+#proj_thumb
+{
+	border-color: #EEF4F4;
+	width: 103px;
+	height: 94px;
+}
+
+blockquote
+{ background: #EEF4F4;
+  border-color: #377CA0;
+}
+
+.sidebar
+{ background: #FFF;
+  color: #555;
+}
+
+.sidebaritem
+{ background: #FFF;
+  color: #555;
+}
+
+#content h1 a, #content h1 a:hover
+{
+	color: #317BA5;
+}
+
+#main, h4, #content a, #content a:hover
+{
+	background: transparent;
+	color: #555;
+}
+
+#logo, #logo h1
+{ background: transparent;
+  color: #FFF;
+}
+
+ul#menu li a 
+{ background: transparent;
+  color: #FFF;
+} 
+
+ul#menu li a:hover, ul#menu li a.current, ul#menu li a.current:hover
+{ background: #646B5C url(../resources/img/menu_sel.png) repeat;} 
+
+input.searchfield
+{ background: #FFF; 
+  border-color: #555;
+}
+
+input.searchbutton
+{ background: #317BA5; 
+  border-color: #4A8CAD; 
+  color: #FFF;
+}
+
+.sidebaritem ul, .sidebaritem li{border-color: #D6D9C9;}
+
+.sidebaritem li a, .sidebaritem li a:hover
+{ background: transparent url(../resources/img/arrow.png) no-repeat left center;
+  color: #555;  
+} 
+
+.sidebaritem li a.current, .sidebaritem li a:hover, .sidebaritem li a.current:hover
+{ background: transparent url(../resources/img/arrow_select.png) no-repeat left center;} 
+
+#footer
+{ background: transparent url(../resources/img/footer.png) repeat;
+  color: #FFF;
+  border-color: #CCD0BA;
+}
+
+#footer a, #footer a:hover
+{ background: transparent;
+  color: #FFF;
+}
+
+/* sNews */
+fieldset, .comment, .commentsbox
+{ background: transparent; 
+  color: #444;
+}
+
+fieldset, .date{border-color: #C9D9D8;}
+
+.comment
+{ background: #EAF1F2; 
+  color: #444;
+}
+
+.proj_thumb
+{
+	border-color: #EEF4F4;
+}

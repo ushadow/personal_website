@@ -1,0 +1,291 @@
+/* global */
+html{height: 100%;}
+
+body
+{ font-family: arial, sans-serif;
+  padding: 0px;
+  margin: 0px;
+  font-size: .78em;
+}
+
+p
+{ margin: 0px;
+  padding: 0px 0px 16px 0px;
+  line-height: 1.7em;
+}
+
+h1, h2, h3, h4
+{ font-size: 110%;
+  padding: 7px 0px 5px 0px; 
+  margin: 0px 0px 12px 0px; 
+  font-weight: normal;
+}
+
+h1, h2, h3
+{
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+h4
+{
+	font-weight: bold;
+}
+
+img
+{
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+a{outline: none;}
+
+form{padding: 0; margin: 0;}
+
+/* image positioning - left, right and center */
+.left
+{ float: left; 
+  border-right: 18px solid;
+}
+
+.right
+{ float: right; 
+  border-left: 18px solid;
+}
+
+.center
+{ display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* block quote */
+blockquote
+{
+	margin: 0px 0px 20px 0px;
+	padding: 10px 10px 0px 10px;
+}
+
+/* unordered list */
+ul
+{ margin: 2px 0px 18px 16px;
+  padding: 0px;
+}
+
+ul li
+{ list-style-type: square;
+  margin: 0px 0px 6px 0px; 
+  padding: 0px;
+}
+
+/* ordered list */
+ol
+{ margin: 8px 0px 0px 24px;
+  padding: 0px;
+}
+
+ol li
+{ margin: 0px 0px 11px 0px; 
+  padding: 0px;
+}
+
+/* margin lefts / margin rights - to centre content */
+#main, #footer, #logo, #menubar, #site_content
+{ margin-left: auto; 
+  margin-right: auto;
+}
+
+/* main container */
+#main
+{
+	width: 760px;
+}
+
+/* logo */
+#logo
+{ width: 760px;
+  height: 81px;
+}
+
+#logo h1
+{ font-size: 200%;
+  padding: 24px 0px 0px 0px;
+  float: left;
+  text-transform: lowercase;
+}
+
+#colours
+{ text-align: right;
+  padding: 30px 0px 0px 0px;
+}
+
+/* navigation menu */
+#menubar
+{ height: 50px;
+  width: 760px;
+} 
+
+ul#menu{margin: 0px;}
+
+ul#menu li
+{ float: left; 
+  margin: 0px; 
+  padding: 0px;
+  list-style: none;
+} 
+
+ul#menu li a 
+{ font-family: verdana, sans-serif;
+  display: block; 
+  float: left; 
+  height: 30px;
+  text-decoration: none; 
+  padding: 16px 15px 4px 15px;
+  text-align: center;
+} 
+
+#search
+{ float: right; 
+  padding: 12px 0px 0px 0px;
+}
+
+input.searchfield
+{ border: 1px solid; 
+  padding: 2px;
+  width: 130px;
+}
+
+input.searchbutton
+{ font-family: verdana, sans-serif;
+  border: 1px solid; 
+  padding: 0px 0px 1px 0px;
+  width: 64px;
+  cursor: pointer;
+}
+
+/* main content */
+#site_content
+{
+	overflow: hidden;
+	padding: 10px 0px 0px 0px;
+	width: 760px;
+	position:relative;
+} 
+
+* html #site_content
+{
+	height:1%;
+}
+
+/* sidebar */
+.sidebar
+{ float: left;
+  width: 190px;
+  padding: 5px 5px 5px 0px;
+  min-height:100%;
+}
+
+img.siderbarimg
+{
+	width: 180px;
+	height: 180px;
+}
+
+/* sidebar items / links */
+.sidebaritem
+{ text-align: left;
+  width: 185px;
+  float: left;
+  margin: 0px 0px 15px 0px;
+}
+
+.sidebaritem h1, .sidebaritem h3, .sidebaritem p{margin: 8px 10px 10px 0px;}
+
+.sidebaritem ul
+{ border-top: 1px solid;
+  width: 171px; 
+  padding-top: 4px; 
+  margin: 4px 14px 15px 0px;
+}
+
+.sidebaritem li
+{ list-style: none; 
+  padding: 0px 0px 4px 0px; 
+  border-bottom: 1px solid;
+}
+
+.sidebaritem li a, .sidebaritem li a:hover
+{ text-decoration: none; 
+  padding: 0px 0px 0px 18px;
+  display: block;
+} 
+
+/* page content */
+#content
+{ text-align: left;
+  float: left;
+  width: 550px;
+  padding: 12px 0px 15px 15px;
+}
+
+#content h1{font-size: 125%;}
+
+#content a, #footer a{border-bottom: 1px dotted;}
+
+#content a:hover, #footer a:hover{border-bottom: 1px solid;}
+
+#content a.colour, #content a.colour:hover{border-bottom: 0px;}
+
+/* footer */
+#footer
+{ height: 40px;
+  width: 760px;
+  padding: 18px 0px 4px 0px;
+  text-align: center; 
+}
+
+#content a, #content a:hover, #footer a, #footer a:hover{text-decoration: none;}
+
+/* sNews */
+fieldset, .comment, .commentsbox{margin-bottom: 10px;}
+
+fieldset
+{ border: 1px solid; 
+  padding: 10px 8px;   
+}
+
+input{padding: 2px;}
+
+textarea
+{ width: 95%; 
+  height: 200px;
+  padding: 3px;
+}
+
+.date
+{ border-top: 1px solid; 
+  margin: 15px 0px 5px 0px;
+  font-weight: bold;
+}
+
+.course_rating
+{
+	width:20px;
+	height:20px;
+	vertical-align:middle;
+}
+
+.proj_thumb
+{
+	width: 103px;
+	height: 94px;
+}
+
+.favicon
+{
+	width:16px;
+	height:16px;
+}
+
