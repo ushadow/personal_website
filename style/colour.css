@@ -1,5 +1,5 @@
 body { 
-	background: #FFF url(../resources/img/back_sky.png) no-repeat top center;
+	background: #FFF url(./images/back_sky.png) no-repeat top center;
   color: #555;
 }
 
@@ -51,7 +51,7 @@ ul#menu li a
 } 
 
 ul#menu li a:hover, ul#menu li a.current, ul#menu li a.current:hover
-{ background: #646B5C url(../resources/img/menu_sel.png) repeat;} 
+{ background: #646B5C url(./images/menu_sel.png) repeat;} 
 
 input.searchfield
 { background: #FFF; 
@@ -67,15 +67,15 @@ input.searchbutton
 .sidebaritem ul, .sidebaritem li{border-color: #D6D9C9;}
 
 .sidebaritem li a, .sidebaritem li a:hover
-{ background: transparent url(../resources/img/arrow.png) no-repeat left center;
+{ background: transparent url(./images/arrow.png) no-repeat left center;
   color: #555;  
 } 
 
 .sidebaritem li a.current, .sidebaritem li a:hover, .sidebaritem li a.current:hover
-{ background: transparent url(../resources/img/arrow_select.png) no-repeat left center;} 
+{ background: transparent url(./images/arrow_select.png) no-repeat left center;} 
 
 #footer
-{ background: transparent url(../resources/img/footer.png) repeat;
+{ background: transparent url(./images/footer.png) repeat;
   color: #FFF;
   border-color: #CCD0BA;
 }

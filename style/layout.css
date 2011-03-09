@@ -116,8 +116,8 @@ ol li
   text-transform: lowercase;
 }
 
-#colours
-{ text-align: right;
+#favicons { 
+  text-align: right;
   padding: 30px 0px 0px 0px;
 }
 
@@ -277,15 +277,20 @@ textarea
 	vertical-align:middle;
 }
 
-.proj_thumb
-{
+.proj_thumb {
 	width: 103px;
 	height: 94px;
 }
 
-.favicon
-{
-	width:16px;
-	height:16px;
+img.favicon {
+	width: 16px;
+	height: 16px;
+	margin: 0 2px;
+	border: none;
+}
+
+#email {
+  width: 100px;
+  height: 22px; 
 }
 
