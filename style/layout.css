@@ -1,15 +1,15 @@
 /* global */
-html{height: 100%;}
+html {height: 100%;}
 
-body
-{ font-family: arial, sans-serif;
+body { 
+  font-family: arial, sans-serif;
   padding: 0px;
   margin: 0px;
   font-size: .78em;
 }
 
-p
-{ margin: 0px;
+p { 
+  margin: 0px;
   padding: 0px 0px 16px 0px;
   line-height: 1.7em;
 }
@@ -21,26 +21,25 @@ h1, h2, h3, h4
   font-weight: normal;
 }
 
-h1, h2, h3
-{
+h1, h2, h3 {
   text-transform: uppercase;
   letter-spacing: .1em;
 }
 
-h4
-{
+h4 {
 	font-weight: bold;
 }
 
-img
-{
+img {
 	border: 0px;
 	margin: 0px;
 	padding: 0px;
 	vertical-align: middle;
 }
 
-a{outline: none;}
+a {
+  outline: none;
+}
 
 form{padding: 0; margin: 0;}
 
@@ -124,7 +123,7 @@ ol li
 /* navigation menu */
 #menubar
 { height: 50px;
-  width: 760px;
+  width: 960px;
 } 
 
 ul#menu{margin: 0px;}
@@ -170,7 +169,7 @@ input.searchbutton
 {
 	overflow: hidden;
 	padding: 10px 0px 0px 0px;
-	width: 760px;
+	width: 960px;
 	position:relative;
 } 
 
