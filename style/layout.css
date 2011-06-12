@@ -91,20 +91,19 @@ ol li
 }
 
 /* margin lefts / margin rights - to centre content */
-#main, #footer, #logo, #menubar, #site_content
-{ margin-left: auto; 
+#main, #logo, #menubar, #site_content { 
+	margin-left: auto; 
   margin-right: auto;
 }
 
 /* main container */
-#main
-{
-	width: 760px;
+#main {
+	width: 960px;
 }
 
 /* logo */
 #logo
-{ width: 760px;
+{ width: 960px;
   height: 81px;
 }
 
@@ -145,11 +144,6 @@ ul#menu li a
   text-align: center;
 } 
 
-#search
-{ float: right; 
-  padding: 12px 0px 0px 0px;
-}
-
 input.searchfield
 { border: 1px solid; 
   padding: 2px;
@@ -173,16 +167,15 @@ input.searchbutton
 	position:relative;
 } 
 
-* html #site_content
-{
+* html #site_content {
 	height:1%;
 }
 
 /* sidebar */
-.sidebar
-{ float: left;
+.sidebar { 
+	float: left;
   width: 190px;
-  padding: 5px 5px 5px 0px;
+  margin: 10px 10px 10px 0px;
   min-height:100%;
 }
 
@@ -195,7 +188,6 @@ img.siderbarimg
 /* sidebar items / links */
 .sidebaritem
 { text-align: left;
-  width: 185px;
   float: left;
   margin: 0px 0px 15px 0px;
 }
@@ -225,27 +217,26 @@ img.siderbarimg
 #content
 { text-align: left;
   float: left;
-  width: 550px;
-  padding: 12px 0px 15px 15px;
+  width: 760px;
+  margin: 12px 0px 15px 0px;
 }
 
 #content h1{font-size: 125%;}
 
-#content a, #footer a{border-bottom: 1px dotted;}
+#content a, footer a{border-bottom: 1px dotted;}
 
-#content a:hover, #footer a:hover{border-bottom: 1px solid;}
+#content a:hover,  a:hover{border-bottom: 1px solid;}
 
 #content a.colour, #content a.colour:hover{border-bottom: 0px;}
 
 /* footer */
-#footer
-{ height: 40px;
-  width: 760px;
-  padding: 18px 0px 4px 0px;
+footer{ 
+	height: 40px;
+ 	padding: 18px 0px 4px 0px;
   text-align: center; 
 }
 
-#content a, #content a:hover, #footer a, #footer a:hover{text-decoration: none;}
+#content a, #content a:hover, footer a, footer a:hover{text-decoration: none;}
 
 /* sNews */
 fieldset, .comment, .commentsbox{margin-bottom: 10px;}
@@ -269,8 +260,7 @@ textarea
   font-weight: bold;
 }
 
-.course_rating
-{
+.course_rating {
 	width:20px;
 	height:20px;
 	vertical-align:middle;

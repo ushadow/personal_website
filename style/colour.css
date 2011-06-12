@@ -74,14 +74,14 @@ input.searchbutton
 .sidebaritem li a.current, .sidebaritem li a:hover, .sidebaritem li a.current:hover
 { background: transparent url(./images/arrow_select.png) no-repeat left center;} 
 
-#footer
-{ background: transparent url(./images/footer.png) repeat;
+footer { 
+	background: transparent url(./images/footer.png) repeat;
   color: #FFF;
   border-color: #CCD0BA;
 }
 
-#footer a, #footer a:hover
-{ background: transparent;
+footer a, footer a:hover { 
+	background: transparent;
   color: #FFF;
 }
 
