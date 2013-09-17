@@ -75,7 +75,7 @@ ul
 
 ul li
 { list-style-type: square;
-  margin: 0px 0px 6px 0px; 
+  margin: 0px 0px 6px 0px;
   padding: 0px;
 }
 
@@ -86,13 +86,13 @@ ol
 }
 
 ol li
-{ margin: 0px 0px 11px 0px; 
+{ margin: 0px 0px 11px 0px;
   padding: 0px;
 }
 
 /* margin lefts / margin rights - to centre content */
-#main, #logo, #menubar, #site_content { 
-	margin-left: auto; 
+#main, #logo, #menubar, #site_content {
+	margin-left: auto;
   margin-right: auto;
 }
 
@@ -114,7 +114,7 @@ ol li
   text-transform: lowercase;
 }
 
-#favicons { 
+#favicons {
   text-align: right;
   padding: 30px 0px 0px 0px;
 }
@@ -123,36 +123,36 @@ ol li
 #menubar
 { height: 50px;
   width: 960px;
-} 
+}
 
 ul#menu{margin: 0px;}
 
 ul#menu li
-{ float: left; 
-  margin: 0px; 
+{ float: left;
+  margin: 0px;
   padding: 0px;
   list-style: none;
-} 
+}
 
-ul#menu li a 
+ul#menu li a
 { font-family: verdana, sans-serif;
-  display: block; 
-  float: left; 
+  display: block;
+  float: left;
   height: 30px;
-  text-decoration: none; 
+  text-decoration: none;
   padding: 16px 15px 4px 15px;
   text-align: center;
-} 
+}
 
 input.searchfield
-{ border: 1px solid; 
+{ border: 1px solid;
   padding: 2px;
   width: 130px;
 }
 
 input.searchbutton
 { font-family: verdana, sans-serif;
-  border: 1px solid; 
+  border: 1px solid;
   padding: 0px 0px 1px 0px;
   width: 64px;
   cursor: pointer;
@@ -165,14 +165,14 @@ input.searchbutton
 	padding: 10px 0px 0px 0px;
 	width: 960px;
 	position:relative;
-} 
+}
 
 * html #site_content {
 	height:1%;
 }
 
 /* sidebar */
-.sidebar { 
+.sidebar {
 	float: left;
   width: 190px;
   margin: 10px 10px 10px 0px;
@@ -198,22 +198,22 @@ img.siderbarimg
 
 .sidebaritem ul
 { border-top: 1px solid;
-  width: 171px; 
-  padding-top: 4px; 
+  width: 171px;
+  padding-top: 4px;
   margin: 4px 14px 15px 0px;
 }
 
 .sidebaritem li
-{ list-style: none; 
-  padding: 0px 0px 4px 0px; 
+{ list-style: none;
+  padding: 0px 0px 4px 0px;
   border-bottom: 1px solid;
 }
 
 .sidebaritem li a, .sidebaritem li a:hover
-{ text-decoration: none; 
+{ text-decoration: none;
   padding: 0px 0px 0px 18px;
   display: block;
-} 
+}
 
 /* page content */
 #content
@@ -232,10 +232,10 @@ img.siderbarimg
 #content a.colour, #content a.colour:hover{border-bottom: 0px;}
 
 /* footer */
-footer{ 
+footer{
 	height: 40px;
  	padding: 18px 0px 4px 0px;
-  text-align: center; 
+  text-align: center;
 }
 
 #content a, #content a:hover, footer a, footer a:hover{text-decoration: none;}
@@ -244,20 +244,20 @@ footer{
 fieldset, .comment, .commentsbox{margin-bottom: 10px;}
 
 fieldset
-{ border: 1px solid; 
-  padding: 10px 8px;   
+{ border: 1px solid;
+  padding: 10px 8px;
 }
 
 input{padding: 2px;}
 
 textarea
-{ width: 95%; 
+{ width: 95%;
   height: 200px;
   padding: 3px;
 }
 
 .date
-{ border-top: 1px solid; 
+{ border-top: 1px solid;
   margin: 15px 0px 5px 0px;
   font-weight: bold;
 }
@@ -282,7 +282,7 @@ img.favicon {
 
 #email {
   width: 100px;
-  height: 22px; 
+  height: 22px;
 }
 
 blockquote img {
