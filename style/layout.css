@@ -227,7 +227,9 @@ img.siderbarimg
 
 #content a, footer a{border-bottom: 1px dotted;}
 
-#content a:hover,  a:hover{border-bottom: 1px solid;}
+#content a:hover {
+  border-bottom: 1px solid;
+}
 
 #content a.colour, #content a.colour:hover{border-bottom: 0px;}
 
@@ -288,4 +290,8 @@ img.favicon {
 blockquote img {
   -moz-border-radius: 5px;
   border-radius: 5px;
+}
+
+embed {
+  padding-bottom: 15px;
 }
